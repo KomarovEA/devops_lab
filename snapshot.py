@@ -118,8 +118,8 @@ def main():
             data['Network'].append(UI.human_ntuple(CI.ReadNet()))
             json.dump(data, ouf)
         elif OutputType == 'txt':
-            ouf.write('Snapshot # ' + str(i) +
-                      ' TimeStamp: ' + str(datetime.now()))
+            ouf.write('Snapshot # ' + str(i)
+                      + ' TimeStamp: ' + str(datetime.now()))
             ouf.write('\n------\nCPU\n')
             ouf.write(str(CI.ReadCPU()))
             ouf.write('\n------\nMemory\n')
