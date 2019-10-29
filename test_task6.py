@@ -17,7 +17,8 @@ class TestTask6(TestCase):
 
     def test_ReversList(self):
         self.assertEqual(task6.ReversList(['the', 'first', 'string']), 'eht tsrif gnirts')
-        self.assertEqual(task6.ReversList(['Prosto', 'dlinnaya', 'stroka']), 'otsorP ayannild akorts')
+        self.assertEqual(task6.ReversList(['Prosto', 'dlinnaya', 'stroka']), \
+                         'otsorP ayannild akorts')
         self.assertEqual(task6.ReversList(['']), '')
         self.assertEqual(task6.ReversList(['SingleWord']), 'droWelgniS')
 
