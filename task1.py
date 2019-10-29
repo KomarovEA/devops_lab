@@ -9,4 +9,3 @@ if 0 < N < 21:
 else:
     print("N must between 1 and 20")
     exit(1)
-
