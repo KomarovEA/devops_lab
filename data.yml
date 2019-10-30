@@ -1,0 +1,9 @@
+apache_vhosts:
+- ServerName: www.domain.tld​
+  DocumentRoot: /www/domain​
+  ServerAdmin: www-admin@domain.tld
+  Directory: "usr/local/httpd/htdocs"
+- ServerName: www.second.com​
+  DocumentRoot: /
+  ServerAdmin: www-admin@second.com​
+  Directory: "usr/local/httpd/docs2"
